@@ -1,0 +1,257 @@
+
+
+/*
+ Clearfix
+ */
+.clearfix {
+    clear: both;
+}
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+/*
+ banner
+ */
+.banner {
+    margin-top: -170px;
+    width: 100%;
+    height: 936px;
+    background: url("../images/banner.jpg") top center;
+    display: table;
+}
+
+.banner h1 {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 83px;
+
+}
+
+.banner h1 span {
+    color: #f66c27;
+}
+
+/*
+    Header
+ */
+.header {
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 170px;
+}
+
+.header .logo {
+
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.main-menu ul li {
+    float: left;
+}
+
+.main-menu ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: #9a9a9a;
+    font-size: 20px;
+    text-decoration: none;
+}
+.main-menu ul li a:hover {
+    color: #f48146;
+}
+.main-menu ul li i {
+    display: inline-block;
+    color: #9a9a9a;
+    font-size: 12px;
+}
+
+/**
+  * Footer
+ */
+footer {
+    background: linear-gradient(to right, #f48146 50%, #ffffff 50%);
+}
+footer .contact-form {
+    box-sizing: border-box;
+    background: #f48146;
+    height: 704px;
+}
+
+footer .content-form {
+    margin-top: 138px;
+    margin-right: 100px;
+    background: #FFF;
+    padding: 60px;
+}
+
+footer .content-form input, textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    color: #777777;
+    font-size: 15px;
+}
+
+footer .contact-form-row.first-row input {
+    width: 40%;
+}
+
+footer.contact-form-row.first-row:after {
+    content: '';
+    clear: both;
+}
+
+footer .contact-form-row.first-row input[name='email'] {
+    float: right;
+}
+
+footer .content-form textarea {
+    width: 100%;
+    height: 150px;
+}
+
+footer .content-form textarea:focus, input:focus{
+    outline: none;
+}
+
+footer .submit-row {
+    text-align: center;
+}
+
+footer .content-form input[type="submit"] {
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 6px 20px;
+    border-radius: 32px;
+}
+
+footer .contact-form-row {
+    margin-bottom: 20px;
+}
+
+footer .contact-info {
+    box-sizing: border-box;
+    padding-left: 50px;
+    height: 704px;
+}
+
+footer .contact-info h3 {
+    margin-top: 120px;
+    font-size: 34px;
+}
+
+footer .line-contact-info {
+    padding: 20px 0;
+}
+
+footer .line-contact-info h4 {
+    font-size: 25px;
+    color: #333333;
+}
+
+footer .line-contact-info p {
+    font-size: 14px;
+    max-width: 305px;
+}
+
+footer .social-icon i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #bbbbbb;
+    margin-right :20px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+footer .social-icon i:hover {
+    background: #f48146;
+}
+
+/*
+ * Our projects
+ */
+.our-project {
+    padding: 50px 0;
+}
+
+.our-project h3 {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.our-project .project-col img {
+    max-width: 100%;
+    padding: 5px;
+    border: 1px solid #eeeeee;
+}
+
+.our-project .project-col-1 img{
+    height: 300px;
+    width: auto;
+}
+
+.our-project .project-col-1 .project-item {
+    margin-bottom: 90px;
+}
+
+.our-project.project-col-1 p {
+    margin-bottom: 35px;
+}
+
+.our-project .project-col-1 a {
+    background: #f48146;
+    color: #ffffff;
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+    border-radius: 32px;
+}
+
+.our-project .project-col-2 img{
+    height: 650px;
+    width: auto;
+}
+
+.our-project .project-col-3 img{
+    height: 300px;
+    width: auto;
+    margin-bottom: 48px;
+}
+
+/*
+ * CSS Intro
+ */
+.intro3 {
+    padding: 30px 0;
+}
+
+.intro3 h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.intro3 p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/*
+ * End CSS Intro
+ */
